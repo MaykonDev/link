@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+
+import pyshorteners
+import sys
+
+link = sys.argv[1]
+shrt = pyshorteners.Shortener()
+link_encurtado = shrt.tinyurl.short(link)
+
+print("[-] Link encurtado: " + link_encurtado)
