@@ -4,18 +4,31 @@
 
 <img src=https://c.tenor.com/zSFun4Z_skQAAAAM/link-link-meme.gif>
 
-</br><strong><i>TESTADO EM:</i></strong></br>
-<li>Termux
-<li>Linux
-
-<strong>INSTALAÇÃO:</strong>
+</br>
+<strong>INSTALAÇÃO:</strong>  
+</br>
+<details>
+    </br>
+    <summary>Termux</summary>
+    </br>
+    
+    pkg install python
+    pkg install git
+    pip install pyshorteners
+    git clone https://github.com/MaykonDev/link
+    cd link
+    python encurtador <link>
+    
+</details>
+<details>
+    <summary>Linux</summary>
+    </br>
 
     apt-get install python
     apt-get install git
     pip install pyshorteners
     git clone https://github.com/MaykonDev/link
     cd link
-
-<i><strong>MODO DE USO:</strong></i>
-
     python encurtador <link>
+        
+</details>
